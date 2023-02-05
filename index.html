@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="shortcut icon" href="./assets/favicon/favicon-32x32.png" type="image/x-icon">
+    
+</head>
+<body>
+    <!--MENU-->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Romina Da Graca</a>
+            </div>
+            <nav id="nav" >
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">Inicio</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">Sobre mí</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">Curriculum</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">Portfolio</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+    <!--SECCION INICIO-->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-imagen">
+                <img src="assets/imagenes/foto 1.svg" alt="">
+            </div>
+            <h1>Romina Da Graca </h1>
+            <h2>Desarrollador Web Full Stack</h2>
+            <div class="redes">
+                <a href="https://www.linkedin.com/in/cintia-romina-da-gra%C3%A7a/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/RominaDaGraca" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://twitter.com/romidagraca" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+        </div>
+    </section>
+    <!--SECCION SOBRE MI-->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h1>Sobre mi</h1>
+            <p>Soy Cintia Romina Da Graca actualmente estoy haciendo un
+            Certificado de profesionalidad en Desarrollo de Aplicaciones con Tecnologías Web y a su vez realizo cursos en udemy para profundizar en los diferentes tipos de lenguajes, con el fin de seguir formándome como desarrollador
+            y construir una relación laboral a futuro. Aprendo rápido, me esfuerzo en adquirir nuevos conocimientos en las nuevas tecnologías y me gusta trabajar en equipo.</p>
+
+            <div class="fila">
+                <div class="col">
+                    <h1>Conocimientos Tecnológicos</h1>
+                    <div class="contenedor-intereses">
+                    <ul>
+                        <li><i class="fa-solid fa-circle-chevron-right"></i>  HTML</li>
+                        <li><i class="fa-solid fa-circle-chevron-right"></i>  CSS</li>
+                        <li><i class="fa-solid fa-circle-chevron-right"></i>  PHP</li>
+                        <li><i class="fa-solid fa-circle-chevron-right"></i>  JavaScript</li>
+                        <li><i class="fa-solid fa-circle-chevron-right"></i>  Git</li>
+                    </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="fila">
+                <!--Datos personales-->
+                <div class="col">
+                    <h1>Contacto</h1>
+                    <ul>
+                        <li>
+                            <strong>Ciudad:</strong>
+                            Vigo
+                        </li>
+                        <li>
+                            <strong>Movil:</strong>
+                            <a href="tel:+54640694049">640694049</a>
+                        </li>
+                        <li>
+                            <strong>Email:</strong>
+                            <a href="mailto:romidagraca@gmail.com">romidagraca@gmail.com</a>
+                        </li>
+                    
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="descarga">
+        <a href="./assets/docs/cv romina dg.pdf" download="cv-romina-dagraca">Descargar CV <i class="fa-solid fa-download"></i></a>
+        </div>      
+    </section>
+    <!--SECCION CURRICULUM-->
+    <section class="curriculum" id="curriculum">
+      <div class="contenido-seccion">
+        <h2>Curriculum</h2>
+        <div class="fila">
+            <div class="col izquierda">
+                <h3>Formación Académica</h3>
+                <div class="item izq">
+                    <h4>Desarrollo de Aplicaciones Web</h4>
+                    <span class="casa">Formacom</span>
+                    <span class="fecha">Fecha de finalizacion: 26 Mayo 2023</span>
+                    <p> Creación de proyectos en equipo de trabajo mediante herramientas 
+                        Git y Github, creación de repositorios, ramas, union de mismas, 
+                        control de las versiones y su despliegue en producción.Actividades 
+                        y grupos: Creación de proyectos en equipo de trabajo mediante 
+                        herramientas Git y Github, creación de repositorios, ramas, union 
+                        de mismas, control de las versiones y su despliegue en producción.
+                        Desarrollar aplicaciones informáticas en entornos distribuidos 
+                        utilizando tecnologías web: HTML, CSS, PHP. JQUERY, AJAX, MYSQL, 
+                        JAVASCRIPT, partiendo de un diseño técnico ya elaborado, 
+                        realizando además la verificación, documentación e implantación 
+                        de los mismos.</p>
+                    <div class="conectori">
+                        <div class="circuloi"></div>
+                    </div>  
+                </div>
+
+                <div class="item izq">
+                    <h4>Empleado de Oficina</h4>
+                    <span class="casa">Centro de Iniciativas Profecionales</span>
+                    <span class="fecha">2007</span>
+                    <p> 815 horas, realizado y finalizado en Vigo.</p>
+                    <div class="conectori">
+                        <div class="circuloi"></div>
+                </div>
+                 </div>
+                
+                <div class="item izq">
+                <h4>Bachiller</h4>
+                <span class="casa">Colegio Colinas de Peralta Ramos</span>
+                <span class="fecha">2006</span>
+                <p> Finalizado en Argentina y homologado en España.</p>
+                <div class="conectori">
+                    <div class="circuloi"></div>
+                </div>
+                </div>
+            
+                <h3>Experiencia Laboral</h3>
+                <div class="item der">
+                    <h4>Dependienta sector alimentación</h4>
+                    <span class="casa">Vigo</span>
+                    <span class="fecha">3 años y medio</span>
+                    <p> Dependienta de panadería, cajera, ayudante de obrador y limpieza tanto del puesto del trabajo como de las instalaciones.</p>
+                    <div class="conectord">
+                        <div class="circulod"></div>
+                    </div>   
+                </div>
+                <div class="item der">
+                    <h4>Operaria sector Automoción</h4>
+                    <span class="casa">Vigo</span>
+                    <span class="fecha">3 años </span>
+                    <p> operaria de automoción en cadena y revisión de piezas cuando asi lo soliciten, polivalente, trabajo en equipo.</p>
+                    <div class="conectord">
+                        <div class="circulod"></div>
+                    </div>
+                 </div>
+                <div class="item der">
+                    <h4>Encargada y dependienta tienda de retales</h4>
+                    <span class="casa">Mar del plata, Argentina</span>
+                    <span class="fecha">6 años y 3 meses</span>
+                    <p> Encargada de tienda y dependienta en tienda de retales, caja, pedidos, control de stock,reposición, inventarios, buen trato con el cliente.</p>
+                    <div class="conectord">
+                        <div class="circulod"></div>
+                    </div>
+                </div>
+                <div class="item der">
+                    <h4>Cajera</h4>
+                    <span class="casa">Vigo</span>
+                    <span class="fecha">6 meses</span>
+                    <p> Cajera, buen trato con el cliente.</p>
+                    <div class="conectord">
+                        <div class="circulod"></div>
+                    </div>
+                </div>
+                <div class="item der">
+                    <h4>Dependienta tienda de Moda</h4>
+                    <span class="casa">Mar del plata, Argentina</span>
+                    <span class="fecha">1 año</span>
+                    <p> Dependienta, buen trato con el cliente, control de stock, reposición, caja.</p>
+                    <div class="conectord">
+                        <div class="circulod"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    </section>
+    <!--PORTFOLIO-->
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>Portfolio</h2>
+            <div class="galeria">
+                <a href="https://elemento-animado.netlify.app/" target="_blank"><div class="proyecto">
+                   <img src="./assets/imagenes/landing page animada.png" alt="">
+                   <div class="overlay">
+                    <h3>Elemento animado</h3>
+                    <p>HTML y CSS</p>
+                   </div>
+                </div></a>
+            
+
+                <a href="https://practicafigma.netlify.app/" target="_blank" ><div class="proyecto">
+                   <img src="./assets/imagenes/FIGMA.png" alt="">
+                   <div class="overlay">
+                    <h3>Practicando con Figma</h3>
+                    <p>HTML y CSS</p>
+                   </div>
+                </div></a>
+
+                <a href="https://formulario-efectos.netlify.app/" target="_blank" ><div class="proyecto">
+                   <img src="./assets/imagenes/form.png" alt="">
+                   <div class="overlay">
+                    <h3>Formulario</h3>
+                    <p>HTML y CSS</p>
+                   </div>
+                </div></a>
+
+                <a href="https://bodysoul.netlify.app/" target="_blank" ><div class="proyecto">
+                    <img src="./assets/imagenes/tiendaropa.png" alt="">
+                    <div class="overlay">
+                     <h3>Body&Soul</h3>
+                     <p>HTML y CSS</p>
+                    </div>
+                 </div></a>
+             
+
+            </div>
+        </div>
+    </section>
+
+    <!--FOOTER-->
+   <footer>
+        <a href="#inicio" class="arriba"><i class="fa-solid fa-angles-up"></i></a>
+        <div class="redes">
+            <a href="tel:+54640694049"><i class="fa-solid fa-phone"></i></a>
+            <a href="mailto:romidagraca@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+            <a href="https://www.linkedin.com/in/cintia-romina-da-gra%C3%A7a/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://github.com/RominaDaGraca" target="_blank"><i class="fa-brands fa-github"></i></a>
+            <a href="https://twitter.com/romidagraca" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+        </div>
+    </footer>
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
